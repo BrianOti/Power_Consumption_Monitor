@@ -3,11 +3,6 @@ import math
 
 # Parsing Power Logs
 
-# Returns (table_keys, table, summaries), where...
-# - table_keys is in array of table keys in the parsing order.
-# - table is a dictionary mapping keys to arrays of all values.
-# - summaries_keys is an array of summaries keys in the parsing order.
-# - summaries is an array of (string, float).
 def parse_power_log(filename):
   with open(filename) as file:
     table_keys = []
