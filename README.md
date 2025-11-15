@@ -1,2 +1,2 @@
 # Power_Consumption_Monitor
-a task in fullfillment of another task
+Trying to monitor actual power consumed by my laptop 
